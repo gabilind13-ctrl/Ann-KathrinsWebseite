@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herzlichen Dank für Ihre Bestellung - Dr.-Ing. Ann-Kathrin Andresen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1a365d',
+            yellow: '#fbbf24',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 0.6s ease-out;
+    }
+  </style>
+</head>
+<body class="bg-white">
+  <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center">
+          <img src="/logo.png" alt="Dr.-Ing. Ann-Kathrin Andresen" class="h-12 w-auto">
+        </div>
+        <nav>
+          <a href="/" class="text-navy hover:text-yellow font-semibold transition-colors">
+            Zurück zur Startseite
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16">
+    <section class="py-16 bg-gradient-to-br from-navy to-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="flex justify-center mb-6">
+          <svg class="w-20 h-20 text-yellow animate-fade-in" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
+          Herzlichen Dank für Ihre Bestellung
+        </h1>
+        <p class="text-xl text-gray-200 max-w-3xl mx-auto animate-fade-in">
+          Sie haben nun sichergestellt, dass Sie einen Termin Ihrer Wahl buchen können
+        </p>
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-yellow/10 border-2 border-yellow rounded-lg p-8 mb-8">
+          <div class="flex items-start">
+            <svg class="w-8 h-8 text-yellow mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <div>
+              <h2 class="text-2xl font-bold text-navy mb-4">
+                Buchen Sie jetzt Ihren Termin
+              </h2>
+              <p class="text-gray-700 mb-6">
+                Benutzen Sie dazu folgenden Link:
+              </p>
+              <a
+                href="https://calendar.app.google/Hu3ACRqKPq8Afd6w9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block bg-yellow text-navy px-8 py-4 rounded-lg font-bold hover:bg-yellow/90 transition-colors text-lg"
+              >
+                Termin buchen
+              </a>
+              <p class="text-sm text-gray-600 mt-4">
+                💡 Speichern Sie sich eine Erinnerung
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border-2 border-gray-200 rounded-lg p-8 mb-8">
+          <div class="flex items-start">
+            <svg class="w-8 h-8 text-navy mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            <div>
+              <h2 class="text-2xl font-bold text-navy mb-4">
+                Haben Sie noch Fragen?
+              </h2>
+              <p class="text-gray-700 mb-4">
+                Falls Sie noch Fragen haben, können Sie sich an nachfolgende E-Mail-Adresse wenden:
+              </p>
+              <a
+                href="mailto:mail@akandresen.de?subject=Fragen zum Entwicklungsgespräch"
+                class="inline-flex items-center text-yellow hover:text-navy font-semibold text-lg transition-colors"
+              >
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                mail@akandresen.de
+              </a>
+              <p class="text-sm text-gray-600 mt-4">
+                Betreff: <strong>Fragen zum Entwicklungsgespräch</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-navy/5 border-2 border-navy/20 rounded-lg p-8">
+          <div class="flex items-start">
+            <svg class="w-8 h-8 text-navy mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+              <h2 class="text-2xl font-bold text-navy mb-4">
+                Wichtiger Hinweis
+              </h2>
+              <div class="space-y-4 text-gray-700">
+                <p>
+                  Die Abwicklung aller Zahlungen auf dieser Seite erfolgt durch den Zahlungsanbieter <strong>Digistore24</strong>. Dieser erscheint auch auf jeglichen Auszügen oder Bestätigungen, die Sie bekommen.
+                </p>
+                <p>
+                  Schauen Sie bitte bei Ihrer angegebenen E-Mail-Adresse, mit der Sie dieses Produkt bestellt haben. Sie werden eine E-Mail von <strong>support@digistore24.com</strong> mit dem Betreff: <strong>"Digistore24 - Bestellung erfolgreich/Zugang"</strong> erhalten.
+                </p>
+                <p class="font-semibold text-navy">
+                  Wenn Sie keine E-Mail erhalten haben, dann schauen Sie bitte in Ihrem Spam-Ordner nach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a
+            href="/"
+            class="inline-block bg-gray-200 text-navy px-8 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+          >
+            Zurück zur Startseite
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-yellow">Kontakt</h3>
+          <p class="text-gray-300 mb-2">Dr.-Ing. Ann-Kathrin Andresen</p>
+          <p class="text-gray-300 mb-2">
+            <a href="mailto:mail@akandresen.de" class="hover:text-yellow transition-colors">
+              mail@akandresen.de
+            </a>
+          </p>
+          <p class="text-gray-300">
+            <a href="tel:+4915678283080" class="hover:text-yellow transition-colors">
+              +49 1567 8283080
+            </a>
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-yellow">Schnelllinks</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="/" class="text-gray-300 hover:text-yellow transition-colors">
+                Startseite
+              </a>
+            </li>
+            <li>
+              <a href="/#about" class="text-gray-300 hover:text-yellow transition-colors">
+                Über mich
+              </a>
+            </li>
+            <li>
+              <a href="/#services" class="text-gray-300 hover:text-yellow transition-colors">
+                Leistungen
+              </a>
+            </li>
+            <li>
+              <a href="/#contact" class="text-gray-300 hover:text-yellow transition-colors">
+                Kontakt
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-yellow">Rechtliches</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="/#impressum" class="text-gray-300 hover:text-yellow transition-colors">
+                Impressum
+              </a>
+            </li>
+            <li>
+              <a href="/#datenschutz" class="text-gray-300 hover:text-yellow transition-colors">
+                Datenschutz
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 pt-8 text-center text-gray-400">
+        <p>&copy; 2024 Dr.-Ing. Ann-Kathrin Andresen. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
